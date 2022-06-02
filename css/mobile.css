@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+  #navb.home-content {
+    display: block;
+    line-height: 2;
+  }
+
+  .navbar a {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-weight: 400;
+  }
+
+  #about .grid-items {
+    display: block;
+  }
+
+  #about .grid-items div {
+    padding: 1rem 0;
+  }
+
+  .solutions .grid-items {
+    display: block;
+    height: 100%;
+  }
+
+  #cases .case-img {
+    display: block;
+  }
+
+  #cases .case-img .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #cases .image:hover {
+    transform: none;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  #cases .team {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #cases .team .team-mem img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  #cases .team .team-mem {
+    padding: 1rem 0;
+  }
+
+  #home .blog-title {
+    padding-top: 8rem;
+  }
+
+  .column-reverse {
+    display: flex !important;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .column-reverse .img {
+    width: 100%;
+    height: 100%;
+  }
+
+}

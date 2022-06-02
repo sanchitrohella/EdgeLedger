@@ -1,0 +1,59 @@
+/* Utilities */
+.text-primary {
+  color: #28a745;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #28a745;
+  color: #fff;
+
+}
+
+.btn-secondary {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: #0284d0;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
